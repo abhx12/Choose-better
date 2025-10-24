@@ -1,6 +1,6 @@
-# 🧠 Choose‑better
+#  Choose‑better
 
-## 📖 Overview  
+##  Overview  
 **Choose‑better** is an intelligent Python project that merges **multi‑website web scraping** with **data‑driven algorithmic analysis**.  
 It automatically collects product or deal data from top e‑commerce sites like **Amazon, Flipkart, ShopClues, Myntra, and Snapdeal**, and then processes that information using **optimization algorithms** (Greedy, Knapsack, Heap Sort, etc.) to help users *choose better* among competing options.
 
@@ -8,26 +8,26 @@ This project demonstrates how **real-world data scraping** and **classical algor
 
 ---
 
-## 🚀 Key Features  
+##  Key Features  
 
-### 🌐 Web Scraping Suite  
+###  Web Scraping Suite  
 The `scraping/` folder includes separate scrapers for each major e-commerce platform:  
-- 🛒 `amazon.py` — Extracts product names, prices, ratings, and links from Amazon.  
-- 🏬 `flipkart.py` — Gathers detailed product listings from Flipkart, handling pagination and dynamic content.  
-- 🛍️ `myntra.py` — Fetches fashion items and price data from Myntra.  
-- 🧾 `shopclues.py` — Scrapes item names, discounts, and availability from ShopClues.  
-- 💻 `snapdeal.py` — Captures product details and ratings from Snapdeal.  
+-  `amazon.py` — Extracts product names, prices, ratings, and links from Amazon.  
+-  `flipkart.py` — Gathers detailed product listings from Flipkart, handling pagination and dynamic content.  
+-  `myntra.py` — Fetches fashion items and price data from Myntra.  
+-  `shopclues.py` — Scrapes item names, discounts, and availability from ShopClues.  
+-  `snapdeal.py` — Captures product details and ratings from Snapdeal.  
 
 Each scraper uses **BeautifulSoup** and/or **Selenium** depending on whether the page is static or dynamically loaded.
 
-### ⚙️ Selenium Utilities  
+###  Selenium Utilities  
 Located in the `scraping/`:  
 - Automates browser sessions (Chrome WebDriver).  
 - Waits for elements to load using `WebDriverWait`.  
 - Includes smart delays and retry logic to avoid detection.  
 - Manages dynamic content rendering and JavaScript-heavy pages.
 
-### 🧮 Algorithms & Data Structures  
+###  Algorithms & Data Structures  
 After scraping, collected data is processed using algorithms from the root modules:  
 - **`datastructures.py`** — Defines reusable structures for managing product and price data.  
 - **`greedy.py`** — Implements greedy decision logic for selecting the best options under constraints.  
@@ -35,7 +35,7 @@ After scraping, collected data is processed using algorithms from the root modul
 - **`knapsack.py`** — Solves the 0/1 Knapsack problem for optimal budget allocation (maximize value under price limit).  
 - **`utilities.py`** — Common helpers for data cleaning, formatting, logging, and visualization.  
 
-### 🧩 Integration (main.py)  
+###  Integration (main.py)  
 `main.py` connects all modules — scraping, cleaning, and analysis — to produce actionable results like:  
 - Sorted product lists by best price-to-rating ratio.  
 - Optimal product combination under a fixed budget.  
@@ -43,7 +43,7 @@ After scraping, collected data is processed using algorithms from the root modul
 
 ---
 
-## 🏗️ Project Structure  
+##  Project Structure  
 ```
 Choose-better/
 │
@@ -66,15 +66,15 @@ Choose-better/
 
 ---
 
-## ⚙️ Installation & Setup  
+##  Installation & Setup  
 
-### 1️⃣ Clone the repository  
+###  Clone the repository  
 ```bash
 git clone https://github.com/Varunesh07/Choose-better.git
 cd Choose-better
 ```
 
-### 2️⃣ Install dependencies  
+###  Install dependencies  
 Make sure **Python 3.8+** is installed. Then run:  
 ```bash
 pip install -r requirements.txt
@@ -92,11 +92,11 @@ math
 ```
 *(If you don’t have a requirements file, you can manually install them using pip.)*
 
-### 3️⃣ Configure Selenium (if using Chrome)  
+###  Configure Selenium (if using Chrome)  
 Make sure Chrome browser and [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) are installed.  
 The `webdriver_manager` automatically handles driver setup.
 
-### 4️⃣ Run the Project  
+###  Run the Project  
 To scrape and process all data:  
 ```bash
 python main.py
@@ -111,7 +111,7 @@ python knapsack.py
 
 ---
 
-## 🧠 Workflow Summary  
+##  Workflow Summary  
 1. **Data Collection:**  
    Each scraper collects product data (price, rating, etc.) from its respective site.  
 2. **Data Cleaning & Storage:**  
@@ -123,11 +123,11 @@ python knapsack.py
 
 ---
 
-## 🧩 Example Use Cases  
-- 🛍️ **Find Best Deals:** Compare same products across multiple platforms.  
-- 💸 **Optimize Spending:** Select items that maximize value under a budget limit (Knapsack).  
-- 📈 **Rank Products:** Sort by weighted metrics using Heap Sort.  
-- ⚡ **Quick Picks:** Use Greedy heuristics for fast, near-optimal results.
+##  Example Use Cases  
+-  **Find Best Deals:** Compare same products across multiple platforms.  
+-  **Optimize Spending:** Select items that maximize value under a budget limit (Knapsack).  
+-  **Rank Products:** Sort by weighted metrics using Heap Sort.  
+-  **Quick Picks:** Use Greedy heuristics for fast, near-optimal results.
 
 ---
 
