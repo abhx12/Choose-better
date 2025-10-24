@@ -21,7 +21,7 @@ The `scraping/` folder includes separate scrapers for each major e-commerce plat
 Each scraper uses **BeautifulSoup** and/or **Selenium** depending on whether the page is static or dynamically loaded.
 
 ### ⚙️ Selenium Utilities  
-Located in the `scraping/utils/` or similar folder:  
+Located in the `scraping/`:  
 - Automates browser sessions (Chrome WebDriver).  
 - Waits for elements to load using `WebDriverWait`.  
 - Includes smart delays and retry logic to avoid detection.  
