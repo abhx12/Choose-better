@@ -133,5 +133,7 @@ python knapsack.py
 
 ## Main Contributors
 
-<table> <tr>  <td align="center"> <a href="https://github.com/abhx12"> <img src="https://avatars.githubusercontent.com/u/195339058??v=4" width="100px;" alt="Nithiish SD"/> <br /> <sub><b>Abhishek J R</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Varunesh07"> <img src="https://avatars.githubusercontent.com/u/205139899?v=4" width="100px;" alt="Varunesh S"/> <br /> <sub><b>Varunesh S</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Monarch0703"> <img src="https://avatars.githubusercontent.com/u/118116807?v=4" width="100px;" alt="Harshith Shiva"/> <br /> <sub><b>Jithendra U</b></sub> </a> </td> </tr> </table>
+<table> <tr>  <td align="center"> <a href="https://github.com/abhx12"> <img src="https://avatars.githubusercontent.com/u/195339058??v=4" width="100px;" alt="Nithiish SD"/> <br /> <sub><b>Abhishek J R</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Varunesh07"> <img src="https://avatars.githubusercontent.com/u/205139899?v=4" width="100px;" alt="Varunesh S"/> <br /> <sub><b>Varunesh S</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Monarch0703"> <img src="https://avatars.githubusercontent.com/u/118116807?v=4" width="100px;" alt="Harshith Shiva"/> <br /> <sub><b>Jithendra U</b></sub> </a> </td> 
+<td align="center"> <a href="https://github.com/Aloneinthemultiverse"> <img src="https://avatars.githubusercontent.com/u/181465592??v=4" width="100px;" alt="Nithiish SD"/> <br /> <sub><b>Sujit </b></sub> </a> </td>
+</tr> </table>
 
